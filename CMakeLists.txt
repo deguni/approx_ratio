@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.7.0 FATAL_ERROR)
 
 project(approx_ratio)
 
-add_definitions(-D_SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING)
-
 if (POLICY CMP0074)
   cmake_policy(SET CMP0074 NEW)
 endif()
