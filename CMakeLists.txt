@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.7.0 FATAL_ERROR)
 project(approx_ratio)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(STATIC_LINK ON)
 add_definitions(-D_SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING)
 
 if (POLICY CMP0074)
